@@ -1,10 +1,16 @@
-import React from "react";
-import Main from "./components/MainComponent";
+import EmployeeList from './components/EmployeeList';
+
+
 function App() {
   return (
-    <div>
-      <Main />
+    <div className="container-xl">
+      <div className="table-responsive">
+        <div className="table-wrapper">
+           <EmployeeList />
+        </div>
+      </div>
     </div>
+
   );
 }
 
